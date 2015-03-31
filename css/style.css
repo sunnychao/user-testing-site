@@ -1,4 +1,14 @@
 body{
 	background: black;
-	
+
+}
+#logo{
+	/*margin: 50 auto;*/
+	/*position: relative;*/
+	/*display: block;*/
+}
+.site-title{
+	/*display: block;*/
+	color: white;
+	/*margin: 0 auto;*/
 }
