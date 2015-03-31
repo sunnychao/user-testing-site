@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Makerbot User Testing</title>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="taskName text-center">Replicator 5th Gen Task</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<textarea rows="10" cols="50" class="center-block" placeholder="Description"></textarea>
+			</div>
+			<div class="col-sm-6 selectData">
+				<p>Select Data Type:</p>
+				<div class="btn-group-vertical" role="group">
+				 	<button type="button" class="btn btn-default"><a href="#">Questionnaire</a></button>
+  					<button type="button" class="btn btn-default">Text, files, images</button>
+				</div>
+			</div>
+		</div>
+		<div class="row taskCtrl">
+			<div class="col-sm-3 col-sm-offset-1">
+				<input type="file" id="exampleInputFile">
+			</div>
+			<div class="col-sm-3 col-sm-offset-1">
+				<div class="dropdown">
+					  <button class="btn btn-default" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+					    Subcategory
+					  </button>
+					  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">New Nozzle</a></li>
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Buildplate</a></li>
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Orca</a></li>
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="color:blue;">+ subcategory</a></li>
+					  </ul>
+				</div>
+			</div>
+			<div class="col-sm-3 col-sm-offset-1">
+				<button class="btn btn-default" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+					Assign to:
+				</button>
+			</div>
+		</div>
+	</div>
+</body>
+	
+</html>
