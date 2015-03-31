@@ -14,4 +14,19 @@ body{
 }
 #signin{
 	margin-top: 20px;
+	border-radius: 0;
+}
+.menuBtn{
+	border-radius: 0;
+	background: red;
+	text-shadow: none;
+	border: none;
+	margin-top: 20px;
+	color: white;
+	height: 60px;
+	width: 200px;
+}
+.btn:hover, .btn:focus{
+	background: red;
+	outline: none;
 }
