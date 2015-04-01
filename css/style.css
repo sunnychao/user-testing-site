@@ -56,6 +56,12 @@ nav.navbar.navbar-default{
 }
 .feedback{
 	height: 400px;
+	width: 300px;
 	background: white;
 	margin-bottom: 10px;
+}
+.userTestingBox{
+	height: 400px;
+	width: 700px;
+	background: white;
 }
