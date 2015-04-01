@@ -42,3 +42,15 @@ body{
 .taskCtrl{
 	margin-top: 40px;
 }
+nav.navbar.navbar-default{
+	background: black;
+	border: none;
+}
+.homeNavRed{
+	background: red;
+	color: white !important;
+}
+.navbar-nav li{
+	margin: 0 15px;
+	width: 120px;
+}
