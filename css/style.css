@@ -54,3 +54,8 @@ nav.navbar.navbar-default{
 	margin: 0 15px;
 	width: 120px;
 }
+.feedback{
+	height: 400px;
+	background: white;
+	margin-bottom: 10px;
+}
