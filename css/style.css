@@ -86,7 +86,7 @@ nav.navbar.navbar-default{
 	position: absolute;
 }
 .repInner{
-	background: gray;
+	background: #a6a6a6;
 	height: 120px;
 	width: 260px;
 	position: absolute;
@@ -100,3 +100,18 @@ nav.navbar.navbar-default{
 	position: absolute;
 	margin: 10px 0 0 220px; 
 }
+.screen{
+	height: 30px;
+	width: 50px;
+	position: absolute;
+	margin: 10px 0 0 160px;
+	background: #B3D5E8;
+}
+.mbLogo{
+	height: 
+}
+
+
+
+
+
