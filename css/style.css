@@ -108,7 +108,12 @@ nav.navbar.navbar-default{
 	background: #B3D5E8;
 }
 .mbLogo{
-	height: 
+	height: 15px;
+	/*width: 200px;*/
+	color: white;
+	position: absolute;
+	bottom: 3px;
+	right: 25px;
 }
 
 
