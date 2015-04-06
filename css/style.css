@@ -116,10 +116,21 @@ nav.navbar.navbar-default{
 	right: 25px;
 }
 .gantry{
-	height: 40px;
-	width: 90px;
+	height: 38px;
+	width: 86px;
 	background: black;
 	margin-top: 50px;
+}
+.redLogo{
+	color: red;
+	height: 23px;
+	width: 23px;
+	position: relative;
+	border: 2px solid red;
+	border-radius: 21px;
+	margin: 0 auto -13px;
+	padding: 0 4px;
+	top: 8px;
 }
 .buildplate{
 	height: 10px;
@@ -127,7 +138,7 @@ nav.navbar.navbar-default{
 	background: black;
 	margin-left: -25px;
 	position: relative;
-	top: 30px;
+	top: 25px;
 }
 .carriage{
 	height: 30px;
@@ -135,7 +146,15 @@ nav.navbar.navbar-default{
 	background: black;
 	border: 1px solid gray;
 	position: relative;
-	margin: 0 auto;
+	margin:0 auto;
+	z-index: 100;
+}
+.nozzle{
+	position: relative;
+	margin: 28px auto 0;
+	background: yellow;
+	height: 5px;
+	width: 5px;
 }
 
 
