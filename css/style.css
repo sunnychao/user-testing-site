@@ -115,6 +115,28 @@ nav.navbar.navbar-default{
 	bottom: 3px;
 	right: 25px;
 }
+.gantry{
+	height: 40px;
+	width: 90px;
+	background: black;
+	margin-top: 50px;
+}
+.buildplate{
+	height: 10px;
+	width: 140px;
+	background: black;
+	margin-left: -25px;
+	position: relative;
+	top: 30px;
+}
+.carriage{
+	height: 30px;
+	width: 30px;
+	background: black;
+	border: 1px solid gray;
+	position: relative;
+	margin: 0 auto;
+}
 
 
 
