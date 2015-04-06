@@ -145,16 +145,18 @@ nav.navbar.navbar-default{
 	width: 30px;
 	background: black;
 	border: 1px solid gray;
+	border-top: 0;
 	position: relative;
 	margin:0 auto;
 	z-index: 100;
 }
 .nozzle{
 	position: relative;
-	margin: 28px auto 0;
+	margin:0 auto;
 	background: yellow;
 	height: 5px;
 	width: 5px;
+	top: 30px
 }
 
 
