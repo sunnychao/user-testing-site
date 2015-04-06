@@ -86,11 +86,20 @@ nav.navbar.navbar-default{
 	position: absolute;
 }
 .repInner{
-	background: #a6a6a6;
+	background: #595959;
 	height: 120px;
 	width: 260px;
 	position: absolute;
 	margin: 60px 20px 0px;
+}
+.knobLed{
+	height: 29px;
+	width: 29px;
+	background: white;
+	border-radius: 20px;
+	position: absolute;
+	margin: 12px 0 0 218px;
+	opacity: 0;
 }
 .knob{
 	height: 25px;
@@ -98,7 +107,8 @@ nav.navbar.navbar-default{
 	background: gray;
 	border-radius: 20px;
 	position: absolute;
-	margin: 10px 0 0 220px; 
+	opacity: 100;
+	margin: 14px 0 0 220px;
 }
 .screen{
 	height: 30px;
@@ -106,6 +116,7 @@ nav.navbar.navbar-default{
 	position: absolute;
 	margin: 10px 0 0 160px;
 	background: #B3D5E8;
+	opacity: 0;
 }
 .mbLogo{
 	height: 15px;
