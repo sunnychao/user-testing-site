@@ -4,6 +4,7 @@ $(document).ready(function(){
 			var up = new TimelineLite();
 			up.to($('.knobLed'), .3, {opacity:"1", ease:Linear.easeNone, delay:.3})
 				.to($('.screen'), .2, {opacity:"1", ease:Linear.easeNone})
+				.to($('.slice'), 0, {visibility:'hidden'})
 				.to($('.zstage'), 2, {marginTop:"-30px", ease:Linear.easeNone,delay:.4})
 				.to($('.carriage'), 1, {marginLeft:"95px", ease:Linear.easeNone, delay:.2})
 				.to($('.carriage'), 1.3, {marginLeft:"158px", ease:Linear.easeNone, onComplete:carriageMove});
