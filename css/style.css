@@ -126,11 +126,12 @@ nav.navbar.navbar-default{
 	bottom: 3px;
 	right: 25px;
 }
-.gantry{
+.zstage{
 	height: 38px;
 	width: 86px;
 	background: black;
 	margin-top: 50px;
+	position: relative;
 }
 .redLogo{
 	color: red;
@@ -149,7 +150,7 @@ nav.navbar.navbar-default{
 	background: black;
 	margin-left: -25px;
 	position: relative;
-	top: 25px;
+	top: 28px;
 }
 .carriage{
 	height: 30px;
@@ -169,7 +170,16 @@ nav.navbar.navbar-default{
 	width: 5px;
 	top: 30px
 }
-
+.bunny{
+	height: 96px;
+	width: 97px;
+	position: absolute;
+	bottom: 0;
+}
+.slice{
+	display: block;
+	visibility: hidden;
+}
 
 
 
