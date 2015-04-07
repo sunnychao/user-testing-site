@@ -3,6 +3,7 @@ $(document).ready(function(){
 		function stageUp(){
 			var up = new TimelineLite();
 			up.to($('.knobLed'), .3, {opacity:"1", ease:Linear.easeNone, delay:.3})
+				.to($('.knob'), 0, {pointerEvents:'none'})
 				.to($('.screen'), .2, {opacity:"1", ease:Linear.easeNone})
 				.to($('.slice'), 0, {visibility:'hidden'})
 				.to($('.zstage'), 2, {marginTop:"-30px", ease:Linear.easeNone,delay:.4})
@@ -23,7 +24,7 @@ $(document).ready(function(){
 				.to($('.carriage'), 2.5, {marginLeft:"158px", ease:Linear.easeNone})
 				.to($('.b4'), 0, {visibility:"visible"})
 				.to($('.zstage'), .2, {marginTop:"2px", ease:Linear.easeNone})
-				.to($('.carriage'), 2.5, {marginLeft:"95px", ease:Linear.easeNone})
+				.to($('.carriage'), 2.5, {marginLeft:"80px", ease:Linear.easeNone})
 				.to($('.b5'), 0, {visibility:"visible"})
 				.to($('.zstage'), .2, {marginTop:"10px", ease:Linear.easeNone})
 				.to($('.carriage'), 2.5, {marginLeft:"158px", ease:Linear.easeNone})
@@ -38,13 +39,14 @@ $(document).ready(function(){
 				.to($('.carriage'), 1.5, {marginLeft:"80px", ease:Linear.easeNone})
 				.to($('.b9'), 0, {visibility:"visible"})
 				.to($('.zstage'), .2, {marginTop:"42px", ease:Linear.easeNone})
-				.to($('.carriage'), 1.5, {marginLeft:"121px", ease:Linear.easeNone})
+				.to($('.carriage'), 1.5, {marginLeft:"110px", ease:Linear.easeNone})
 				.to($('.b10'), 0, {visibility:"visible"})
 				.to($('.zstage'), .2, {marginTop:"50px", ease:Linear.easeNone})
 				.to($('.carriage'), 1, {marginLeft:"85px", ease:Linear.easeNone})
 				.to($('.b11'), 0, {visibility:"visible"})
 				.to($('.carriage'), 1, {marginLeft:"121px", ease:Linear.easeNone})
-				.to($('.b12'), 0, {visibility:"visible"});
+				.to($('.b12'), 0, {visibility:"visible"})
+				.to($('.knob'), 0, {pointerEvents:'auto'});
 		}
 		stageUp();
 	})
