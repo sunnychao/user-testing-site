@@ -1,5 +1,7 @@
 body{
-	background: black;
+	background: #2b2b2b;
+	font-family: "Antenna Black", sans-serif;
+	font-weight: 400;
 
 }
 #logo{
@@ -43,20 +45,25 @@ body{
 	margin-top: 40px;
 }
 nav.navbar.navbar-default{
-	background: black;
+	background: #2b2b2b;
 	border: none;
+
 }
-.homeNavRed{
-	background: red;
+.homeNav{
+	/*background: red;*/
 	color: white !important;
+}
+.taskH2{
+	color: white;
+	font-family: "Antenna Black", sans-serif;
 }
 .navbar-nav li{
 	margin: 0 15px;
-	width: 120px;
+	width: 160px;
 }
-.feedback{
-	height: 400px;
-	width: 300px;
+.taskSelect{
+	height: 300px;
+	width: 80%;
 	background: white;
 	margin-bottom: 10px;
 }
