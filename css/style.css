@@ -187,7 +187,8 @@ nav.navbar.navbar-default{
 	display: block;
 	visibility: hidden;
 }
-
-
+#addCat{
+	color: blue;
+}
 
 

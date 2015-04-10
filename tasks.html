@@ -37,12 +37,12 @@
 		    	<li><a class="homeNav text-center" href="createTask.html">CREATE TASK</a></li>
 		    	<li><a class="homeNav text-center" href="tasks.html">TASKS</a></li>
 		    	<li><a class="homeNav text-center" href="createTask.html">ASSIGNED TASKS</a></li>
-
+		    	<li><a class="homeNav text-center" href="index.html">SIGN OUT</a></li>
 		      </ul>
 		    </div>
 	   </div> <!-- container fluid -->
 	</nav>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<p class="taskName text-center">TASKS</p>
@@ -51,21 +51,33 @@
 		<div class="row">
 			<div class=" col-xs-12 col-lg-12">
 				<div class="row">
-					<div class="col-xs-10 col-xs-offset-1 col-lg-3 col-lg-offset-0">
-						<h2 class="taskH2 text-center">Category</h2>
-						<div class="taskSelect text-center center-block">
-							Replicator 5th Gen
-						</div>
+					<div class="col-xs-3 col-xs-offset-1 col-lg-3">
+						<select name="unittype" required>
+							 <option value=""> Select Category </option>
+							 <option value="1"> Replicator 5th Gen </option>
+							 <option value="2"> Puffer </option>
+							 <option value="3"> Snipey </option>
+							 <option value="4"> Max </option>
+							 <option value="5"> Firebot </option>
+						</select>
 					</div>
-					<div class="col-xs-10 col-xs-offset-1 col-lg-3 col-lg-offset-0">
-						<h2 class="taskH2 text-center">Subcategory</h2>
-						<div class="taskSelect text-center center-block">
-							Nozzle Prototype
-						</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-3 col-xs-offset-1 col-lg-3">
+						<select name="unittype" required>
+							 <option value=""> Select Subcategory </option>
+							 <option value="1"> New Nozzle </option>
+							 <option value="2"> Puffer </option>
+							 <option value="3"> Snipey </option>
+							 <option value="4"> Max </option>
+							 <option value="5"> Firebot </option>
+						</select>
 					</div>
-					<div class="col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-0">
-						<h2 class="taskH2 text-center">Task</h2>
-						<div class="taskSelect text-center center-block">
+				</div>
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1 col-md-6 col-lg-6 col-lg-offset-1">
+						<!-- <h2 class="taskH2 text-center">Task</h2> -->
+						<div class="taskSelect text-center">
 							Install and print calibration cube
 						</div>
 					</div>
