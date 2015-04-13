@@ -197,8 +197,16 @@ nav.navbar.navbar-default{
 }
 .assignedList{
 	height: 550px;
-	overflow: scroll;
+	overflow-y: scroll;
 }
 .dataHead{
 	color: white;
+}
+.list-height{
+	min-height: 122px;
+	max-height: 122px;
+	overflow: hidden;
+}
+.survey-images{
+	height: 100px;
 }
