@@ -211,6 +211,11 @@ nav.navbar.navbar-default{
 .survey-images{
 	height: 100px;
 }
-.allData{
+.dataAll{
 	background: white;
+	height: 800px;
+}
+.dataImg{
+	max-height: 339px;
+	overflow-y: scroll;
 }
