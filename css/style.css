@@ -4,11 +4,6 @@ body{
 	font-weight: 300;
 
 }
-#logo{
-	/*margin: 50 auto;*/
-	/*position: relative;*/
-	/*display: block;*/
-}
 .site-title{
 	/*display: block;*/
 	color: white;
@@ -150,7 +145,7 @@ nav.navbar.navbar-default{
 	border: 2px solid red;
 	border-radius: 21px;
 	margin: 0 auto -13px;
-	padding: 0 3px;
+	padding: 0 2px;
 	top: 8px;
 }
 .buildplate{
