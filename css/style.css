@@ -223,3 +223,9 @@ nav.navbar.navbar-default{
 	overflow-y: scroll;
 	height: 400px; 
 }
+.signOut{
+	float: right !important;
+}
+.navbar-nav{
+	width: 100%;
+}
