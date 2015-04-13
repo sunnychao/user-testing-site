@@ -197,6 +197,7 @@ nav.navbar.navbar-default{
 }
 .assignedList{
 	height: 550px;
+	margin-top: 15px;
 	overflow-y: scroll;
 }
 .dataHead{
@@ -209,4 +210,7 @@ nav.navbar.navbar-default{
 }
 .survey-images{
 	height: 100px;
+}
+.allData{
+	background: white;
 }
