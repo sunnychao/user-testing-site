@@ -243,3 +243,10 @@ nav.navbar.navbar-default{
 	overflow-y:scroll;
 	height: 300px;
 }
+.comment-section{
+	max-height: 500px;
+	overflow-y:	scroll;
+}
+.commentBtn,.assignBtn, .editBtn{
+	margin:10px 0 40px;
+}
