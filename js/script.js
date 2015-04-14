@@ -52,14 +52,12 @@ $(document).ready(function(){
 	})
 	// highlight multiple names at once
 	$(".names").mousedown(function(e){
-    e.preventDefault();
-    
-    var scroll = this.scrollTop;
-    
-    e.target.selected = !e.target.selected;
-    
-    this.scrollTop = scroll;
-    
-    $(this).focus();
-}).mousemove(function(e){e.preventDefault()});
+	    e.preventDefault();
+	    var scroll = this.scrollTop;
+	    e.target.selected = !e.target.selected;
+	    this.scrollTop = scroll;
+	    $(this).focus();
+	}).mousemove(function(e){
+		e.preventDefault()
+	});
 });

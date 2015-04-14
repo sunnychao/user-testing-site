@@ -7,7 +7,7 @@ body{
 .site-title, .task-title{
 	/*display: block;*/
 	color: white;
-	/*margin: 0 auto;*/
+	margin-bottom: 40px;
 }
 #signin{
 	margin-top: 20px;
@@ -239,7 +239,7 @@ nav.navbar.navbar-default{
 .noPad{
 	padding: 0;
 }
-.panel.panel-default{
+.descriptPanel{
 	overflow-y:scroll;
 	height: 300px;
 }

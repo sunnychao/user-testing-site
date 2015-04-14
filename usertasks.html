@@ -30,16 +30,12 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <!-- <a class="navbar-brand" href="#">Brand</a> -->
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
 		        <li><a class="homeNav text-center" href="userHome.html" >HOME<span class="sr-only">(current)</span></a></li>
-		    	<!-- <li><a class="homeNav text-center" href="createTask.html">CREATE TASK</a></li> -->
-		    	<!-- <li><a class="homeNav text-center" href="tasks.html">TASKS</a></li> -->
-		    	<!-- <li><a class="homeNav text-center" href="assignedtasks.html">ASSIGNED TASKS</a></li> -->
 		    	<li class="signOut"><a class="homeNav text-center" href="index.html">SIGN OUT</a></li>
 		      </ul>
 		    </div>
@@ -52,18 +48,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-3">
-				<select name="unittype">
-					 <option value=""> Sort By: </option>
-					 <option value="1"> Date </option>
-					 <option value="2"> Category </option>
-					 <option value="3"> Subcategory </option>
-				</select>
-			</div>
-		</div>
-		<div class="row">
 			<div class="col-xs-12 col-sm-6">
-				<div class="panel panel-default">
+				<div class="panel panel-default desciptPanel">
 					<div class="panel-body">
 					    Description of task
 					    <br>
@@ -81,6 +67,10 @@
 					    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</div>
 				</div>
+				<ul class="list-group">
+					<li class="list-group-item"><a href="#">Makerbot Desktop v.00000</a></li>
+					<li class="list-group-item"><a href="#">Firmware v.00000</a></li>
+				</ul>
 				<ul class="list-group comment-section">
 					<li class="list-group-item">
 						<span class='userName'>Mike</span><span>&nbsp;&nbsp;&nbsp;</span><span class="commentDate">Apr. 10, 2015</span>
@@ -123,6 +113,50 @@
 					</li>
 				</ul>
 				<input class="btn btn-default pull-right commentBtn" type="submit" value="Comment">
+			</div>
+			<div class="col-xs-12 col-md-6">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="list-group">
+							<div class="list-group-item">
+								<p>Question 1</p>
+								<form>
+									<input type="radio" name="Q1" value="A">A
+									<br>
+									<input type="radio" name="Q1" value="B">B
+									<br>
+									<input type="radio" name="Q1" value="C">C
+									<br>
+									<input type="radio" name="Q1" value="D">D
+								</form>
+							</div>
+							<div class="list-group-item">
+								<p>Question 2</p>
+								<form>
+									<input type="radio" name="Q2" value="A">A
+									<br>
+									<input type="radio" name="Q2" value="B">B
+									<br>
+									<input type="radio" name="Q2" value="C">C
+									<br>
+									<input type="radio" name="Q2" value="D">D
+								</form>
+							</div>
+							<div class="list-group-item">
+								<p>Question 3</p>
+								<form>
+									<input type="radio" name="Q3" value="A">A
+									<br>
+									<input type="radio" name="Q3" value="B">B
+									<br>
+									<input type="radio" name="Q3" value="C">C
+									<br>
+									<input type="radio" name="Q3" value="D">D
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
