@@ -218,8 +218,10 @@
 								</div>
 							</div>
 							<textarea class="form-control" rows="8" placeholder='Describe your findings'></textarea>
-							<!-- <form> -->
-							<input type="file">
+							<!-- </form>
+						<form method="post" enctype="multipart/form-data"> -->
+							<input type="file" id="files" name="files" multiple="multiple"/>
+							<div id="selectedFiles"></div>
 							<input class="btn btn-default pull-right" type="submit" value="Submit">
 						</form>
 					</div> <!-- panel body -->
