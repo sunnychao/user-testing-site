@@ -4,7 +4,7 @@ body{
 	font-weight: 300;
 
 }
-.site-title{
+.site-title, .task-title{
 	/*display: block;*/
 	color: white;
 	/*margin: 0 auto;*/
@@ -238,4 +238,8 @@ nav.navbar.navbar-default{
 }
 .noPad{
 	padding: 0;
+}
+.panel.panel-default{
+	overflow-y:scroll;
+	height: 300px;
 }
