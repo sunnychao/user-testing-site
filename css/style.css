@@ -10,6 +10,9 @@ body{
 .bottom30m{
 	margin-bottom: 30px;
 }
+.white{
+	color: white;
+}
 .site-title, .task-title{
 	/*display: block;*/
 	color: white;
@@ -63,8 +66,6 @@ nav.navbar.navbar-default{
 	width: 160px;
 }
 .taskSelect{
-	/*height: 300px;*/
-	width: 80%;
 	background: white;
 	margin-bottom: 10px;
 }
@@ -190,9 +191,6 @@ nav.navbar.navbar-default{
 	display: block;
 	visibility: hidden;
 }
-#addCat{
-	color: blue;
-}
 .userSelect{
 	width: 80%;
 }
@@ -210,8 +208,8 @@ nav.navbar.navbar-default{
 	overflow: hidden;
 }
 .survey-images{
-	max-height: 100px;
-	max-width: 150px;
+	max-height: 120px;
+	/*max-width: 170px;*/
 	width: auto;
 	height: auto;
 	display: block;
