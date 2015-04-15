@@ -37,7 +37,7 @@
 		        <li><a class="homeNav text-center" href="adminHome.html" >HOME<span class="sr-only">(current)</span></a></li>
 		    	<li><a class="homeNav text-center" href="createTask.html">CREATE TASK</a></li>
 		    	<li><a class="homeNav text-center" href="tasks.html">TASKS</a></li>
-		    	<li><a class="homeNav text-center" href="assignedtasks.html">ASSIGNED TASKS</a></li>
+		    	<!-- <li><a class="homeNav text-center" href="assignedtasks.html">ASSIGNED TASKS</a></li> -->
 		    	<li class="signOut"><a class="homeNav text-center" href="index.html">SIGN OUT</a></li>
 		      </ul>
 		    </div>
@@ -49,11 +49,11 @@
 				<h1 class="task-title text-center">Rep 5G Prototype Nozzle Print Test</h1>
 			</div>
 		</div>
-		<!--*******************************    Modal  ***************************************-->
+<!--******************************************************************    Modal  **********************************************-->
 		<div class="row">
 			<div class="col-xs-12">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
+				<button type="button" class="btn btn-default bottom10m" data-toggle="modal" data-target="#myModal">
 				  Edit Task
 				</button>
 
@@ -65,34 +65,44 @@
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				        <h4 class="modal-title" id="myModalLabel">Edit Task</h4>
 				      </div>
-				      <div class="modal-body">
-					        <div class="row">
-								<form>
-									<input type="text" class="form-control" placeholder="Enter Task Title">
-									<select class="form-control">
-										<option value="">Select Category</option>
-										<option>Replicator 5th Gen</option>
-										<option>2</option>
-										<option>3</option>
-										<option>4</option>
-									</select>
-								
-									<input type="submit" class="btn btn-default" value="Create New Category">
-								
-									<select class="form-control">
-										<option value="">Select Subcategory</option>
-										<option>Prototype Nozzle</option>
-										<option>2</option>
-										<option>3</option>
-										<option>4</option>
-										<option>5</option>
-									</select>
-							
-									<input type="submit" class="btn btn-default" value="Create New Subcategory">
-									<textarea rows="8" class="form-control center-block" placeholder="Description"></textarea>	
-									<input type="file">
-								</form>
-							</div> <!-- row -->
+				      <div class="modal-body">		
+							<form>
+								<input type="text" class="form-control bottom30m" placeholder="Enter Task Title">
+		<!-- *******************************   CREATE CATEGORY FORM    *********************************************************-->
+								<select class="form-control catList">
+									<option value="">Select Category</option>
+									<option>Replicator 5th Gen</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+								</select>
+								<div class="input-group bottom30m">
+								      <input type="text" class="form-control catInput" placeholder="Create New Category">
+								      <span class="input-group-btn">
+								        <button class="btn btn-default addCat" type="button">Add</button>
+								      </span>
+							    </div>
+
+		<!-- *******************************  CREATE SUBCATEGORY FORM *********************************************************-->							
+								<select class="form-control subcatList">
+									<option value="">Select Subcategory</option>
+									<option>Prototype Nozzle</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+								<div class="input-group bottom30m">
+								      <input type="text" class="form-control subcatInput" placeholder="Create New Subcategory">
+								      <span class="input-group-btn">
+								        <button class="btn btn-default addsubCat" type="button">Add</button>
+								      </span>
+							    </div>
+
+		<!-- *******************************  DESCRIPTION TEXT AREA  *********************************************************-->
+								<textarea rows="8" class="form-control center-block" placeholder="Description"></textarea>	
+								<input type="file">
+							</form>
 				      </div> <!-- modal body -->
 
 				      <div class="modal-footer">
@@ -104,11 +114,11 @@
 				</div> <!-- modal fade -->
 			</div>
 		</div> <!-- row -->
-		<!--*******************************   End Modal  ***************************************-->
+<!--****************************************************   End Modal  ************************************************************-->
+
 		<div class="row">
 			<div class="col-xs-12 col-sm-6">
-				
-					<!-- <textarea rows="8" class="form-control center-block" placeholder="Description"></textarea> -->
+			
 				<div class="panel panel-default descriptPanel">
 					<div class="panel-body">
 					    Description of task
@@ -140,10 +150,6 @@
 						<p><a href="#">Firmware v.00000</a></p>
 					</div>
 				</div>
-				<!-- <ul class="list-group">
-					<li class="list-group-item"><a href="#">Makerbot Desktop v.00000</a></li>
-					<li class="list-group-item"><a href="#">Firmware v.00000</a></li>
-				</ul> -->
 				<ul class="list-group comment-section">
 					<li class="list-group-item">
 						<span class='userName'>Mike</span><span>&nbsp;&nbsp;&nbsp;</span><span class="commentDate">Apr. 10, 2015</span>
@@ -190,6 +196,8 @@
 					<input class="btn btn-default pull-right commentBtn" type="submit" value="Comment">
 				</form>
 			</div>
+
+<!-- *****************************************************   SURVEY  ***************************************************************-->
 			<div class="col-xs-12 col-md-6">
 				<div class="panel panel-default">
 					<div class="panel-body">
@@ -256,6 +264,7 @@
 						</form>
 					</div> <!-- panel body -->
 				</div> <!-- panel-default -->
+<!--*************************************************      END SURVEY     ***************************************************************-->
 				<div class="panel panel-default">
 					<div class="panel-body">
 						<form>

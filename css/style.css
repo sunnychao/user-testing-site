@@ -4,6 +4,12 @@ body{
 	font-weight: 300;
 
 }
+.bottom10m{
+	margin-bottom: 10px;
+}
+.bottom30m{
+	margin-bottom: 30px;
+}
 .site-title, .task-title{
 	/*display: block;*/
 	color: white;
