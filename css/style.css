@@ -204,8 +204,8 @@ nav.navbar.navbar-default{
 }
 .list-height{
 	min-height: 122px;
-	max-height: 122px;
-	overflow: hidden;
+	/*max-height: 122px;*/
+	/*overflow: hidden;*/
 }
 .gallery-survey-images{
 	max-height: 100px;
