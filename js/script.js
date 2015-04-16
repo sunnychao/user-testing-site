@@ -64,20 +64,26 @@ $(document).ready(function(){
 
 	//add category button
 	$(".addCat").on('click', function(){
-		$('.catList').append("<option>" + $(".catInput").val() + "</option>");
-		$('.catInput').val("");
+		if ($(".catInput").val() !== ""){
+			$('.catList').append("<option>" + $(".catInput").val() + "</option>");
+			$('.catInput').val("");
+		};
 	})
 
 	//add subcategory button
 	$(".addsubCat").on('click', function(){
-		$('.subcatList').append("<option>" + $(".subcatInput").val() + "</option>");
-		$('.subcatInput').val("");
+		if ($(".subcatInput").val() !== ""){
+			$('.subcatList').append("<option>" + $(".subcatInput").val() + "</option>");
+			$('.subcatInput').val("");
+		};
 	})
 
 	//add tester
 	$(".addTester").on('click', function(){
-		$('.testerList').append("<option>" + $("#testerName").val() + "</option>");
-		$('#testerName').val("");
+		if ($("#testerName").val() !== ""){
+			$('.testerList').append("<option>" + $("#testerName").val() + "</option>");
+			$('#testerName').val("");
+		};
 	})
 
 
