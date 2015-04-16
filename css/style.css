@@ -207,14 +207,21 @@ nav.navbar.navbar-default{
 	max-height: 122px;
 	overflow: hidden;
 }
-.survey-images{
-	max-height: 120px;
+.gallery-survey-images{
+	max-height: 100px;
 	/*max-width: 170px;*/
 	width: auto;
 	height: auto;
 	display: block;
 	float: left;
-
+}
+.tester-survey-images{
+	max-height: 100px;
+	/*max-width: 170px;*/
+	width: auto;
+	height: auto;
+	display: block;
+	float: left;
 }
 .dataAll{
 	background: white;
