@@ -51,7 +51,7 @@ $(document).ready(function(){
 		stageUp();
 	})
 	// highlight multiple names at once
-	$(".names").mousedown(function(e){
+	$(".highlightNames").mousedown(function(e){
 	    e.preventDefault();
 	    var scroll = this.scrollTop;
 	    e.target.selected = !e.target.selected;
@@ -72,6 +72,12 @@ $(document).ready(function(){
 	$(".addsubCat").on('click', function(){
 		$('.subcatList').append("<option>" + $(".subcatInput").val() + "</option>");
 		$('.subcatInput').val("");
+	})
+
+	//add tester
+	$(".addTester").on('click', function(){
+		$('.testerList').append("<option>" + $("#testerName").val() + "</option>");
+		$('#testerName').val("");
 	})
 
 

@@ -251,6 +251,6 @@ nav.navbar.navbar-default{
 	max-height: 500px;
 	overflow-y:	scroll;
 }
-.commentBtn,.assignBtn, .editBtn{
+.commentBtn,.assignBtn, .editBtn, .addTesterBtn{
 	margin:10px 0 40px;
 }
